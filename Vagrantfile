@@ -57,17 +57,14 @@ Vagrant.configure("2") do |config|
   #
    config.vm.provider "virtualbox" do |vb|
      # Customize the amount of memory on the VM:
-    vb.name = "SAPNetWeaver7.52SP01"
+    vb.name = "SAPNetWeaver7.52SP01xxx"
     vb.gui = true
     vb.linked_clone = true
-
-    #vb.customize ["modifyvm", :id, "--nic2", "natnetwork", "--nat-network2", "test", "--nictype2", "virtio"]
-    # vb.customize ["modifyvm", :id, "--nictype1", "virtio"]
-    # vb.customize ["modifyvm", :id, "--nictype2", "virtio"]
-
+    
     # Use VBoxManage to customize the VM. For example to change memory:
     vb.customize ["modifyvm", :id, "--memory", "8192", "--cpus", "2"]
     vb.customize ["modifyvm", :id, "--clipboard", "bidirectional"]
+    vb.customize ["modifyvm", :id, "--draganddrop", "bidirectional"]
     vb.customize ["modifyvm", :id, "--vram", "32"]
    end
   #
