@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "modify hostname..."
 sudo echo "10.0.2.15 vhcalnplci vhcalnplci.dummy.nodomain" > /etc/hosts
 
