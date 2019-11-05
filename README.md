@@ -1,3 +1,8 @@
+## Please take a look at the new project SAPNW752SP04
+The openSUSE Leap 15.1 Vagrant box prepared to install SAP NetWeaver AS ABAP 752 SP04 Developer Edition
+ [wechris/SAPNW752SP04](https://github.com/wechris/SAPNW752SP04)
+
+
 Introduction
 ============
 The openSUSE Leap 42.3 Vagrant box can be used to create a VirtualBox instance with Vagrant to install [SAP NW AS ABAP 752 SP01 Developer Edition](https://blogs.sap.com/2018/09/13/as-abap-752-sp01-developer-edition-to-download/#comment-437359) .
